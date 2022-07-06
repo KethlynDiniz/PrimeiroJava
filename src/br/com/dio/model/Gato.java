@@ -6,14 +6,12 @@ public class Gato {
 	private String cor;
 	private Integer idade;
 
-	public Gato(String nome, String cor, Integer idade) {
+	public Gato() {
 		
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
 	}
-	
-	public Gato(){}
 
 	public String getNome() {
 		return nome;
